@@ -1,0 +1,415 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #181818
+}
+
+nav {
+    background: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav .brand-name {
+    color: white;
+    font-size: 1rem;
+    display: inline;
+    margin-bottom: 10px;
+    height: 100%;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+.brand-name .sup-ng {
+    font-size: 0.6rem;
+    margin-left: 5px;
+}
+
+.brand {
+    display: flex;
+    margin-top: 20px;
+}
+
+.brand a {
+    display: flex;
+    /* padding: 10px 5px; */
+    text-decoration: none;
+}
+
+.search-box {
+    display: none;
+}
+
+form {
+    background: #323232;
+    border: 1px solid #323232;
+    height: 30px;
+}
+
+.search-text {
+    background: #121212;
+    border: none;
+    height: 100%;
+    color: #818181;
+    padding-left: 10px;
+}
+
+.dis-sm-none {
+    display: none;
+}
+
+.menu i {
+    margin: 20px 10px;
+}
+
+nav i {
+    font-size: 1rem;
+}
+
+.fa-youtube {
+    font-size: 1.5rem;
+}
+
+.fa-bars {
+    margin-right: 20px;
+}
+
+.container {
+    margin: 20px;
+}
+
+.container-avatar {
+    margin-top: 15px;
+}
+
+.brand .logo {
+    color: #f00;
+}
+
+.text-color {
+    color: white
+}
+
+form .fa-search {
+    width: 50px;
+    text-align: center;
+    color: #6f6f6f;
+}
+
+.embed {
+    width: 100%;
+    height: 230px;
+}
+
+.embed iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.desc {
+    line-height: 1.5;
+}
+
+.desc,
+.show-more {
+    margin-left: 40px;
+}
+
+.show-more {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.youtube-title .fa-chevron-down {
+    margin-top: 25px;
+}
+
+.color-gray {
+    color: #909090;
+}
+
+.button-icons {
+    margin-top: 20px;
+}
+
+.button-icons .thumbs div {
+    margin-right: 20px;
+}
+
+.thumbs-border {
+    border-bottom: 2px solid #909090;
+    padding-bottom: 10px;
+}
+
+.button-icons .thumbs div i {
+    font-size: 1.4rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subs {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row small {
+    margin-top: 5px;
+}
+
+.bey-pic {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.avatar,
+.comment-avatar {
+    margin-top: 3px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.avatar {
+    margin-left: 10px;
+}
+
+.channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.channel .pic-name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.channel .pic-name .subs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.channel .subscribe-btn {
+    background-color: #f00;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.channel a {
+    text-decoration: none;
+    color: white;
+}
+
+.solid {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #303030;
+}
+
+.fa-toggle-on {
+    margin-left: 10px;
+    color: #3ea6ff;
+}
+
+.up-next small {
+    color: #909090;
+}
+
+.up-next a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.up-next p {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.pics-wrapper {
+    margin-right: 10px;
+}
+
+.pics-wrapper img.up-next-pics {
+    width: 152.567px;
+}
+
+.up-next .up-next-views {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.up-next-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.after-next {
+    margin-top: 20px;
+}
+
+.link-color {
+    color: #3ea6ff;
+    text-decoration: none;
+}
+
+.show-more-btn {
+    border: 1px solid #0060df;
+    color: #0060df;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border-radius: 3px;
+}
+
+.comments-section {
+    margin-top: 30px;
+}
+
+.comments-section span:first-child {
+    margin-right: 40px;
+}
+
+.comments-section .fa-sort-amount-up {
+    margin-right: 10px;
+}
+
+.comments-section .comments-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.comments-section form {
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+}
+
+.comment-box {
+    background: transparent;
+    color: #818181;
+    width: 100%;
+    border: none;
+}
+
+.comment-avatar {
+    margin-right: 20px;
+}
+
+.user-comment {
+    display: flex;
+    margin-top: 30px;
+}
+
+.reply {
+    margin-left: 30px;
+}
+
+.show-more-replies {
+    color: #0060df;
+}
+
+.show-more-replies i {
+    margin-right: 20px;
+}
+
+.user-comment {
+    line-height: 1.5;
+}
+
+@media(min-width: 450px) {
+    nav i {
+        font-size: 1.3rem;
+    }
+    nav .brand-name {
+        font-size: 1.3rem;
+    }
+    .avatar,
+    .comment-avatar {
+        width: 30px;
+        height: 30px;
+    }
+    .fa-youtube {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 680px) {
+    .search-box {
+        display: block;
+    }
+    .menu .fa-search {
+        display: none;
+    }
+    .dis-sm-none {
+        display: block;
+    }
+    .dis-lg-none {
+        display: none;
+    }
+}
+
+@media(min-width: 1034px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: "left-section right-section" "comments-section right-section"
+    }
+    .left-section {
+        grid-area: left-section;
+    }
+    .right-section {
+        grid-area: right-section;
+    }
+    .comments-section {
+        grid-area: comments-section;
+    }
+    .left-section,
+    .comments-section {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
