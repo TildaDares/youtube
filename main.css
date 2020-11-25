@@ -408,7 +408,7 @@ form .fa-search {
 @media(min-width: 1034px) {
     .container {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 2.5fr 1fr;
         grid-template-areas: "left-section right-section" "comments-section right-section"
     }
     .left-section {
@@ -416,6 +416,7 @@ form .fa-search {
     }
     .right-section {
         grid-area: right-section;
+        margin-right: 50px;
     }
     .comments-section {
         grid-area: comments-section;
