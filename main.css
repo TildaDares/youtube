@@ -37,7 +37,6 @@ nav .brand-name {
 
 .brand a {
     display: flex;
-    /* padding: 10px 5px; */
     text-decoration: none;
 }
 
@@ -196,12 +195,17 @@ form .fa-search {
 .comment-avatar {
     margin-top: 3px;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+}
+
+.comment-avatar {
+    width: 40px;
+    height: 40px
 }
 
 .avatar {
     margin-left: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .channel {
@@ -341,7 +345,11 @@ form .fa-search {
 
 .user-comment {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.user-comment-text p {
+    margin-top: 9px;
 }
 
 .reply {
@@ -367,8 +375,7 @@ form .fa-search {
     nav .brand-name {
         font-size: 1.3rem;
     }
-    .avatar,
-    .comment-avatar {
+    .avatar {
         width: 30px;
         height: 30px;
     }
@@ -381,6 +388,9 @@ form .fa-search {
     .search-box {
         display: block;
     }
+    .search-box form .search-text {
+        width: 200px
+    }
     .menu .fa-search {
         display: none;
     }
@@ -389,6 +399,9 @@ form .fa-search {
     }
     .dis-lg-none {
         display: none;
+    }
+    .embed {
+        height: 334px;
     }
 }
 
@@ -411,5 +424,20 @@ form .fa-search {
     .comments-section {
         margin-right: 20px;
         margin-left: 20px;
+    }
+    .up-next-div {
+        margin-top: 0;
+    }
+    .embed {
+        height: 581px;
+    }
+    .title {
+        font-size: 1.4rem;
+    }
+    .search-box form .search-text {
+        width: 564px
+    }
+    .user-comment-text p {
+        margin-right: 40px;
     }
 }
