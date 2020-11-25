@@ -78,10 +78,6 @@ nav i {
     margin-right: 20px;
 }
 
-.container {
-    margin: 20px;
-}
-
 .container-avatar {
     margin-top: 15px;
 }
@@ -121,8 +117,7 @@ form .fa-search {
 }
 
 .container {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 30px;
 }
 
 .title {
@@ -416,7 +411,7 @@ form .fa-search {
     }
     .right-section {
         grid-area: right-section;
-        margin-right: 50px;
+        margin-right: 10px;
     }
     .comments-section {
         grid-area: comments-section;
@@ -424,7 +419,6 @@ form .fa-search {
     .left-section,
     .comments-section {
         margin-right: 20px;
-        margin-left: 20px;
     }
     .up-next-div {
         margin-top: 0;
